@@ -1,11 +1,72 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .top {
-  display: flex;
+    display: flex;
+    height: 90vh;
+    padding-left: 20px;
 }
+
 .barner1 {
-  width: 100%;
-  height: auto;
+    width: 100%;
+}
+
+.intro {
+    margin-top: 400px;
+    width: 40vw;
+    position: absolute;
+}
+
+h2 {
+    position: absolute;
+}
+
+
+/*NEWS LETTER SECTION*/
+
+form {
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.email-box {
+    position: absolute;
+    height: 40px;
+    display: flex;
+}
+
+.email-box i {
+    width: 50px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.tbox,
+.btn {
+    border-radius: 104px;
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
+    width: 250px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: #2f3542;
+    color: white;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 104px;
 }
