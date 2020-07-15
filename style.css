@@ -3,20 +3,60 @@
     padding: 0;
 }
 
+body {
+    background: #e5e5e5;
+}
+
+.logom {
+    color: #3f51b5;
+}
+
+.introcol {
+    color: #3f51b5;
+}
+
+.nocol {
+    color: #000000;
+}
+
+.introp {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #242424;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+h3 {
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    color: #242424;
+}
+
 .top {
     display: flex;
-    height: 90vh;
     padding-left: 20px;
+    align-content: space-between;
 }
 
-.barner1 {
-    width: 100%;
-}
+.topic2 {}
 
 .intro {
-    margin-top: 400px;
-    width: 40vw;
-    position: absolute;
+    margin-top: 100px;
+    width: 50vw;
 }
 
 h2 {
@@ -26,9 +66,19 @@ h2 {
 
 /*NEWS LETTER SECTION*/
 
+.notificationp {
+    padding-left: 15px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #242424;
+}
+
 form {
-    padding-left: 40px;
-    margin-bottom: 50px;
+    margin-top: -3vh;
+    padding-left: 10px;
 }
 
 .email-box {
@@ -41,7 +91,8 @@ form {
     width: 50px;
     line-height: 40px;
     padding-left: 10px;
-    border-radius: 15px;
+    color: #3f51b5;
+    border-radius: 0px 104px 104px 0px;
 }
 
 .tbox,
@@ -63,10 +114,116 @@ form {
 }
 
 .btn {
-    background: #2f3542;
+    background: #3f51b5;
     color: white;
     padding: 0 20px;
     text-transform: uppercase;
     cursor: pointer;
-    border-top-right-radius: 104px;
+    border-radius: 0px 104px 104px 0px;
+}
+
+
+/*HOW IT WORKS STYLES*/
+
+.work {
+    margin-top: 20vh;
+}
+
+.work-desc {
+    align-items: center;
+}
+
+.how {
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3f51b5;
+}
+
+.workp {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #242424;
+    width: 30vw;
+    margin: 0 auto 0 auto;
+}
+
+
+/*MEASUREMENT DETAIL STYLES*/
+
+.row {
+    justify-content: center;
+    margin-left: 15vw;
+}
+
+.icon-bg {
+    margin-top: 40px;
+}
+
+.col-md-4 {
+    margin: 30px;
+    width: 220px;
+    height: 220px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.workpic {
+    background: #3f51b5;
+    border-radius: 15px;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.workpic2 {
+    background: #ff4081;
+    border-radius: 15px;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.workpic3 {
+    background: #e1edf7;
+    border-radius: 15px;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.pic-detail {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #242424;
+}
+
+.pin-info {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #242424;
+}
+
+
+/*pic section styles*/
+
+.pic-sec {
+    margin-top: 20vh;
+}
+
+.phonepic1,
+.phonepic2,
+.phonepic3 {
+    width: 300px;
 }
