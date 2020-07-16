@@ -199,6 +199,10 @@ h6:after {
     margin-top: 40px;
 }
 
+.col-sm-4:hover {
+    box-shadow: 0 2px 20px #333;
+}
+
 .col-md-4 {
     margin: 30px;
     width: 220px;
@@ -295,7 +299,6 @@ h6:after {
 }
 
 .group:hover {
-    background-color: blue;
     box-shadow: 0 2px 20px #333;
 }
 
