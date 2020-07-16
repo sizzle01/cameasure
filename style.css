@@ -11,6 +11,10 @@ body {
     color: #3f51b5;
 }
 
+.intro {
+    margin-left: 4vw;
+}
+
 .introcol {
     color: #3f51b5;
 }
@@ -20,6 +24,8 @@ body {
 }
 
 .introp {
+    width: 506px;
+    height: 81px;
     font-family: Muli;
     font-style: normal;
     font-weight: 600;
@@ -29,6 +35,7 @@ body {
 }
 
 h2 {
+    margin-left: 5vw;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -77,12 +84,12 @@ h2 {
 }
 
 form {
-    margin-top: -3vh;
-    padding-left: 10px;
+    padding-top: 25px;
+    margin-left: 4vw;
+    margin-top: -15vh;
 }
 
 .email-box {
-    position: absolute;
     height: 40px;
     display: flex;
 }
@@ -133,6 +140,27 @@ form {
     align-items: center;
 }
 
+H6:before,
+H6:after {
+    background-color: #3f51b5;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+
+h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
 .how {
     font-family: Crimson Text;
     font-style: normal;
@@ -160,8 +188,11 @@ form {
 /*MEASUREMENT DETAIL STYLES*/
 
 .row {
+    margin-top: 40px;
+    display: flex;
     justify-content: center;
-    margin-left: 15vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .icon-bg {
@@ -218,12 +249,163 @@ form {
 
 /*pic section styles*/
 
+.work2 {
+    margin-top: 22vh;
+}
+
 .pic-sec {
-    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 22vh;
 }
 
 .phonepic1,
 .phonepic2,
 .phonepic3 {
     width: 300px;
+    position: relative;
+}
+
+.phonepic1 {
+    left: 8vw;
+}
+
+.phonepic3 {
+    right: 8vw;
+}
+
+.phonepic2 {
+    bottom: 14vh;
+}
+
+
+/*App features styles*/
+
+.work3 {
+    margin-top: 22vh;
+}
+
+.empty {
+    margin-right: 9px;
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+    background: #eeecec;
+    border-radius: 13px;
+}
+
+.group:hover {
+    background-color: blue;
+    box-shadow: 0 2px 20px #333;
+}
+
+.func {
+    width: 160px;
+    height: 27px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #242424;
+}
+
+.featp {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #242424;
+    width: 170px;
+    height: 81px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left2 {
+    justify-content: flex-end;
+}
+
+.group {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* APP GLANCE STYLE SECTION*/
+
+.app-glance {
+    display: flex;
+    margin-top: 15vh;
+    flex-wrap: wrap;
+}
+
+
+/*  FOOTER SECTION STYLES*/
+
+.footer-con {
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/footerpic.png);
+    margin-top: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tbox2 {
+    border: none;
+    border-radius: 140px 0 0 140px;
+    height: 50px;
+    width: 350px;
+}
+
+.btn2 {
+    background-color: #ff4081;
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-radius: 0 140px 140px 0;
+}
+
+.fa-envelope-square {
+    color: white;
+}
+
+.sm-icons i {
+    color: white;
+    padding: 40px 10px;
+}
+
+.footerp {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0074em;
+    color: white;
+    width: 296px;
+    height: 20px;
 }
