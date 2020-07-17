@@ -265,6 +265,14 @@ h6:after {
     margin-right: 60px;
 }
 
+.video {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: auto;
+}
+
 
 /*.pic-sec {
   display: flex;
@@ -451,7 +459,7 @@ h6:after {
     .how {
         margin-left: 10px;
     }
-    .video1 {
+    .video {
         width: 100px;
     }
     .group {
@@ -469,5 +477,12 @@ h6:after {
     }
     .work3 {
         margin-left: 50px;
+    }
+    .video {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: auto;
     }
 }
