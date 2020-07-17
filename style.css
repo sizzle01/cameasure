@@ -459,9 +459,6 @@ h6:after {
     .how {
         margin-left: 10px;
     }
-    .video {
-        width: 100px;
-    }
     .group {
         margin-left: 120px;
         display: flex;
@@ -481,7 +478,14 @@ h6:after {
     .video {
         display: block;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 7vw;
+        width: 100%;
+        height: auto;
+    }
+    .app-pic {
+        display: block;
+        margin-right: auto;
+        margin-left: -6vw;
         width: 100%;
         height: auto;
     }
