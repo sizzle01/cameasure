@@ -7,32 +7,51 @@ body {
     background: #e5e5e5;
 }
 
+.control {
+    width: 100%;
+    height: 100vh;
+}
+
 .logo {
-    margin-top: 50px;
-    margin-left: 4vw;
+    width: 200px;
+    height: 64.1px;
+    margin-bottom: 70px;
+}
+
+.topic2 {
+    width: 100%;
+    height: 100%;
 }
 
 .intro {
-    margin-left: 4vw;
+    margin-left: 3vw;
+    margin-top: 50px;
+    width: 50vw;
 }
 
-.introcol {
-    color: #3f51b5;
-}
-
-.nocol {
-    color: #000000;
+.prediction {
+    width: 377px;
 }
 
 .introp {
-    width: 600px;
+    width: 405px;
     height: 81px;
     font-family: Muli;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 22px;
     color: #242424;
+    padding: 20px 0;
+}
+
+.introcol {
+    color: #3f51b5;
+    position: absolute;
+}
+
+.nocol {
+    color: #000000;
 }
 
 
@@ -51,8 +70,7 @@ h3 {
     font-family: Crimson Text;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 4.7rem;
     color: #242424;
 }
 
@@ -64,14 +82,7 @@ h3 {
 
 .topic2 {}
 
-.intro {
-    margin-top: 100px;
-    width: 50vw;
-}
-
-h2 {
-    position: absolute;
-}
+h2 {}
 
 
 /*NEWS LETTER SECTION*/
@@ -89,7 +100,6 @@ h2 {
 form {
     padding-top: 25px;
     margin-left: 4vw;
-    margin-top: -15vh;
 }
 
 .email-box {
@@ -135,11 +145,10 @@ form {
 
 /*HOW IT WORKS STYLES*/
 
-.work {
-    margin-top: 20vh;
-}
+.work {}
 
 .work-desc {
+    justify-content: center;
     align-items: center;
 }
 
@@ -257,18 +266,16 @@ h6:after {
 /*pic section styles*/
 
 .work2 {
-    margin-top: 22vh;
+    margin-top: 20vh;
 }
 
 .pic-sec {
-    margin-top: 45px;
-    margin-right: 60px;
+    padding-top: 30px;
 }
 
 .video {
+    margin: 0 auto;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     width: 90%;
     height: auto;
 }
@@ -357,7 +364,15 @@ h6:after {
 
 /* APP GLANCE STYLE SECTION*/
 
+.pic-glance {
+    width: 300px;
+}
+
 .app-glance {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
     display: flex;
     margin-top: 15vh;
     flex-wrap: wrap;
@@ -558,3 +573,5 @@ h6:after {
         height: auto;
     }
 }
+
+@media screen and (max-width: 375px) {}
